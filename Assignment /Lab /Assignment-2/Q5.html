@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <script>
+        function login() {
+            document.getElementById("message").innerHTML =
+                "Login successful!";
+        }
+    </script>
+</head>
+<body>
+    <h1>Login</h1>
+    <form>
+        <label for="username" style="display: inline-block; width: 100px;">
+            Username:
+        </label>
+        <input type="text" id="username" name="username">
+        <br><br>
+
+        <label for="password" style="display: inline-block; width: 100px;">
+            Password:
+        </label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <input type="button" value="Login" onclick="login()">
+        <p id="message"></p>
+    </form>
+</body>
+</html>
