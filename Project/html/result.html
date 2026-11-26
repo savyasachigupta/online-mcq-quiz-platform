@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results | QuizSprint</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">Q</span>
+            <span>QuizSprint</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="categories.html">Quizzes</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="instructions.html">How It Works</a>
+        </div>
+        <div class="nav-actions">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="categories.html" class="start-btn">Start Quiz</a>
+        </div>
+    </nav>
+    <!-- Result Page -->
+    <main class="result-page">
+        <!-- Result Header -->
+        <section class="result-header">
+            <div class="result-badge">✓ Quiz Completed</div>
+            <h1>Great Job! 🎉</h1>
+            <p>
+                You have successfully completed the Web Development Quiz.
+                Here's a summary of your performance.
+            </p>
+        </section>
+        <!-- Score Card -->
+        <section class="result-score-card">
+            <div class="score-circle">
+                <div class="score-number">80</div>
+                <div class="score-label">/ 100</div>
+            </div>
+            <div class="score-content">
+                <span class="result-category">
+                    WEB DEVELOPMENT • MEDIUM
+                </span>
+                <h2>Your Score</h2>
+                <p>
+                    You answered <strong>8 out of 10</strong> questions correctly.
+                </p>
+                <div class="score-stats">
+                    <div class="score-stat">
+                        <span class="stat-value correct">8</span>
+                        <span class="stat-name">Correct</span>
+                    </div>
+                    <div class="score-stat">
+                        <span class="stat-value incorrect">2</span>
+                        <span class="stat-name">Incorrect</span>
+                    </div>
+                    <div class="score-stat">
+                        <span class="stat-value">10</span>
+                        <span class="stat-name">Questions</span>
+                    </div>
+                    <div class="score-stat">
+                        <span class="stat-value">08:42</span>
+                        <span class="stat-name">Time Used</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Performance -->
+        <section class="performance-section">
+            <div class="section-title">
+                <div>
+                    <span class="section-label">YOUR PERFORMANCE</span>
+                    <h2>Quiz Summary</h2>
+                </div>
+            </div>
+            <div class="performance-grid">
+                <div class="performance-card">
+                    <span class="performance-icon">✓</span>
+                    <div>
+                        <strong>80%</strong>
+                        <p>Accuracy</p>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <span class="performance-icon">★</span>
+                    <div>
+                        <strong>Good</strong>
+                        <p>Performance</p>
+                    </div>
+                </div>
+                <div class="performance-card">
+                    <span class="performance-icon">⚡</span>
+                    <div>
+                        <strong>Fast</strong>
+                        <p>Time Management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Answer Review -->
+        <section class="review-section">
+            <div class="review-heading">
+                <div>
+                    <span class="section-label">ANSWER REVIEW</span>
+                    <h2>Review Your Answers</h2>
+                </div>
+                <span class="review-count">Sample Review</span>
+            </div>
+            <!-- Question 1 -->
+            <div class="review-card correct-answer">
+                <div class="review-question">
+                    <span class="review-number">01</span>
+                    <div>
+                        <h3>
+                            Which HTML element is used to create a hyperlink?
+                        </h3>
+                        <p>
+                            Your answer:
+                            <strong>&lt;a&gt;</strong>
+                        </p>
+                    </div>
+                </div>
+                <span class="answer-status correct-status">
+                    ✓ Correct
+                </span>
+            </div>
+            <!-- Question 2 -->
+            <div class="review-card correct-answer">
+                <div class="review-question">
+                    <span class="review-number">02</span>
+                    <div>
+                        <h3>
+                            Which property is used to change text color in CSS?
+                        </h3>
+                        <p>
+                            Your answer:
+                            <strong>color</strong>
+                        </p>
+                    </div>
+                </div>
+                <span class="answer-status correct-status">
+                    ✓ Correct
+                </span>
+            </div>
+            <!-- Question 3 -->
+            <div class="review-card incorrect-answer">
+                <div class="review-question">
+                    <span class="review-number">03</span>
+                    <div>
+                        <h3>
+                            Which tag is used to create an unordered list?
+                        </h3>
+                        <p>
+                            Your answer:
+                            <strong>&lt;ol&gt;</strong>
+                        </p>
+                        <p class="correct-answer-text">
+                            Correct answer:
+                            <strong>&lt;ul&gt;</strong>
+                        </p>
+                    </div>
+                </div>
+                <span class="answer-status incorrect-status">
+                    ✕ Incorrect
+                </span>
+            </div>
+            <!-- Question 4 -->
+            <div class="review-card correct-answer">
+                <div class="review-question">
+                    <span class="review-number">04</span>
+                    <div>
+                        <h3>
+                            Which CSS property controls the space inside an element?
+                        </h3>
+                        <p>
+                            Your answer:<strong>padding</strong>
+                        </p>
+                    </div>
+                </div>
+                <span class="answer-status correct-status">
+                    ✓ Correct
+                </span>
+            </div>
+        </section>
+        <!-- Action Buttons -->
+        <section class="result-actions">
+            <a href="categories.html" class="retake-btn">
+                ↻ Take Another Quiz
+            </a>
+            <a href="leaderboard.html" class="leaderboard-result-btn">
+                View Leaderboard →
+            </a>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            Quiz<span>Sprint</span>
+        </div>
+        <p>
+            2026 QuizSprint. An Online MCQ Quiz Test Platform.
+        </p>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">About</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

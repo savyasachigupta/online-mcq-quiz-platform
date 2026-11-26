@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Quiz | QuizSprint</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">Q</span>
+            Quiz<span class="logo-highlight">Sprint</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="categories.html" class="active">Quizzes</a>
+            <a href="leaderboard.html">Leaderboard</a>
+            <a href="instructions.html">How It Works</a>
+        </nav>
+        <div class="nav-actions">
+            <a href="login.html" class="login-btn">Login</a>
+            <a href="categories.html" class="start-btn">Start Quiz</a>
+        </div>
+    </header>
+    <!-- Quiz Selection -->
+    <main class="selection-page">
+        <div class="selection-heading">
+            <div class="hero-badge">
+                ✦ Choose Your Challenge
+            </div>
+            <h1>
+                Find a Quiz That
+                <span>Fits You.</span>
+            </h1>
+            <p>
+                Select a category and difficulty level to
+                begin your QuizSprint challenge.
+            </p>
+        </div>
+        <!-- Category Section -->
+        <section class="selection-section">
+            <div class="section-title">
+                <div>
+                    <p class="small-title">STEP 01</p>
+                    <h2>Select a Category</h2>
+                </div>
+                <span class="selection-count">6 Categories</span>
+            </div>
+            <div class="category-grid">
+                <!-- Category 1 -->
+                <div class="category-card selected-category">
+                    <div class="category-icon">⌘</div>
+                    <div class="category-info">
+                        <h3>Web Development</h3>
+                        <p>HTML, CSS & Web Basics</p>
+                    </div>
+                    <span class="category-check">✓</span>
+                </div>
+                <!-- Category 2 -->
+                <div class="category-card">
+                    <div class="category-icon">☕</div>
+                    <div class="category-info">
+                        <h3>Java Programming</h3>
+                        <p>OOP, Syntax & Programming</p>
+                    </div>
+                </div>
+                <!-- Category 3 -->
+                <div class="category-card">
+                    <div class="category-icon">🐍</div>
+                    <div class="category-info">
+                        <h3>Python</h3>
+                        <p>Programming & Problem Solving</p>
+                    </div>
+                </div>
+                <!-- Category 4 -->
+                <div class="category-card">
+                    <div class="category-icon">⌨</div>
+                    <div class="category-info">
+                        <h3>Data Structures</h3>
+                        <p>Algorithms & DSA Concepts</p>
+                    </div>
+                </div>
+                <!-- Category 5 -->
+                <div class="category-card">
+                    <div class="category-icon">◈</div>
+                    <div class="category-info">
+                        <h3>Cybersecurity</h3>
+                        <p>Security & Network Concepts</p>
+                    </div>
+                </div>
+                <!-- Category 6 -->
+                <div class="category-card">
+                    <div class="category-icon">?</div>
+                    <div class="category-info">
+                        <h3>General Knowledge</h3>
+                        <p>World, Science & Current Topics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Difficulty Section -->
+        <section class="selection-section difficulty-section">
+            <div class="section-title">
+                <div>
+                    <p class="small-title">STEP 02</p>
+                    <h2>Choose Difficulty</h2>
+                </div>
+            </div>
+            <div class="difficulty-grid">
+                <div class="difficulty-card">
+                    <span class="difficulty-dot easy"></span>
+                    <div>
+                        <h3>Easy</h3>
+                        <p>Good for beginners</p>
+                    </div>
+                </div>
+                <div class="difficulty-card selected-difficulty">
+                    <span class="difficulty-dot medium"></span>
+                    <div>
+                        <h3>Medium</h3>
+                        <p>Test your understanding</p>
+                    </div>
+                    <span class="difficulty-check">✓</span>
+                </div>
+                <div class="difficulty-card">
+                    <span class="difficulty-dot hard"></span>
+                    <div>
+                        <h3>Hard</h3>
+                        <p>Challenge your knowledge</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Quiz Summary -->
+        <section class="quiz-summary">
+            <div class="summary-info">
+                <span class="summary-icon">✓</span>
+                <div>
+                    <p class="summary-label">YOUR SELECTION</p>
+                    <h3>
+                        Web Development
+                        <span>•</span>
+                        Medium
+                    </h3>
+                    <p>
+                        10 Questions &nbsp;•&nbsp; 10 Minutes
+                    </p>
+                </div>
+            </div>
+            <a href="instructions.html" class="continue-btn">
+                Continue →
+            </a>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">
+            Quiz<span>Sprint</span>
+        </div>
+        <p>
+            2026 QuizSprint. An Online MCQ Quiz Test Platform.
+        </p>
+        <div class="footer-links">
+            <a href="#">Privacy</a>
+            <a href="#">About</a>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
